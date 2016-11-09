@@ -1,0 +1,720 @@
+
+.col{
+	color: red;
+	font-size: 24px;
+}
+
+
+#top,#head,#log,#banner,#contact,#footer-link,#footer{
+	width: 1041px;
+	margin: 0 auto;
+}
+
+#top-wrap{
+	height: 30px;
+	background: #f2f2f2;
+}
+
+#top{
+	height: 30px;
+	background: #f2f2f2;
+}
+#top .left-1{
+	float: left;
+}
+#top .right-1{
+	float: left;
+	margin-left: 600px;
+}
+#top ul li{
+	font-size: 12px;
+	float: left;
+	height: 20px;
+	margin-top: 5px;
+	padding: 0 5px;
+	line-height: 20px;
+}
+
+#top .img-a img{
+	display: block;
+	float: left;
+}
+#top .img-a a{
+	display: block;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+#head-wrap{
+	background: black;
+	position: relative;
+	width: 100%;
+	z-index: 99;
+}
+#head{
+	height: 42px;
+	background: black;
+}
+#head .nav{
+	font-size: 14px;
+	float: left;
+	width: 740px;
+	list-style: none;
+	padding-top: 16px;
+}
+#head .nav li a{
+	float: left;
+	text-decoration: none;
+	padding: 0 25px;
+	color: white;
+}
+#head .nav li a:hover{
+	color:#d70000;
+}
+#head .nav .first a{
+	padding-left: 20px;
+	color: #d70000;
+}
+#head .nav .last a{
+	border-right: 1px solid white;
+}
+#head .right-nav{
+	position: relative;
+	float: right;
+	width: 131px;
+	height: 42px;
+	background: url(../img/base_z.png) no-repeat;
+}
+#head .right-nav a{
+	display: block;
+	position: absolute;
+	float: left;
+	color: white;
+	width: 23px;
+	height: 22px;
+	line-height: 26px;
+	text-align: center;
+	left: 0;
+	top: 8px;
+	text-decoration: none;
+	background: url(../img/1212.gif) no-repeat ;
+}
+#head .right-nav span{
+	display:block;
+	width: 74px;
+	position: absolute;
+	right: 0;
+	top: 8px;
+	height: 22px;
+	padding-left: 16px;
+	line-height: 22px;
+	border-left: 3px solid white;
+	color: white;
+	font-size: 12px;
+}
+#log{
+	height: 78px;
+	background: white;
+}
+#log img{
+	cursor: pointer;
+}
+
+
+#banner-wrap{
+/*	width: 120px*/;
+	height: 524px;
+	margin: 0 auto;
+	overflow: hidden;
+/*	background: url(../img/20160926101012470.jpg) no-repeat center;*/
+}
+#banner-wrap .lunbo li{
+	/*width: 1141px;*/
+	float: left;
+}
+
+#banner{
+	height: 526px;
+	width: 1800px;
+	text-align: center;
+}
+/*#banner{
+	height: 526px;
+	margin: 0 auto;	
+}*/
+#all{	
+	position: absolute;
+	left: 50%;
+	top: 600px;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+#contact-wrap{
+	width: 1366px;
+	height: 6555px;
+}
+#contact{	
+	background: white;
+	margin: 0 auto;
+}
+#contact .first{
+	height: 20px;
+}
+.contact1 a{
+	width: 1000px;
+	height: 100px;
+	display: block;
+	width: 1000px;
+	height: 100px;
+	margin-left: 20px;
+	background: url(../img/20160901095551104.jpg) no-repeat;
+}
+#contact h2{
+	margin-top:40px;
+	margin-left: 20px;
+}
+.contact2{
+	overflow: hidden;
+}
+.contact2-left{
+	width: 679px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.contact2-left li {
+	width: 320px;
+	float: left;
+	margin-right: 22px;
+	margin-bottom: 20px;
+}
+
+.contact2-left li img{
+	width: 320px;
+	height: 192px;
+}
+.contact2-left li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact2-left li p span{
+	float: right;
+}
+
+.contact2-left .ul-li{
+	margin-right: 0;
+}
+
+.contact2-right{
+	margin-right:20px
+	float: left;
+}
+.img-white{
+	height:10px
+}
+
+.contact3{
+	overflow: hidden;
+	margin-left: 20px;
+}
+.contact3 li{
+	width: 320px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.contact3 .bott{
+	margin-bottom: 0;
+}
+.contact3 .ul-li{
+	margin-right:0;
+}
+.contact3 li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact3 li p span{
+	float: right;
+}
+.contact4{
+	margin-top: 10px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+.contact4 li{
+	width: 320px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.contact4 .bott{
+	margin-bottom: 0;
+}
+.contact4 .ul-li{
+	margin-right:0;
+}
+.contact4 li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact4 li p span{
+	float: right;
+}
+.contact5{
+	margin-top: 10px;
+}
+.contact5-left{
+	float: left;
+	margin-left:20px;
+}
+.contact5-right{
+	float: left;
+	width: 700px;
+
+}
+.contact5-right li{
+	width: 320px;
+	float: left;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+.contact5-right li img{
+	width: 320px;
+	height: 192px;
+}
+.contact5-right ._ul-li{
+	margin-right: 0;
+}
+.contact5-right li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact5 li p span{
+	float: right;
+}
+.contact6{
+	margin-left: 20px;
+}
+.contact6 li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+}
+.contact6 li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact6 li p span{
+	float: right;
+}
+.contact7{
+	margin-top: 10px;
+}
+.contact7-left{
+	float: left;
+	margin-left:20px;
+}
+.contact7-right{
+	float: left;
+	width: 700px;
+
+}
+.contact7-right li{
+	width: 320px;
+	float: left;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+.contact7-right li img{
+	width: 320px;
+	height: 192px;
+}
+.contact7-right ._ul-li{
+	margin-right: 0;
+}
+.contact7-right li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact7 li p span{
+	float: right;
+}
+.contact8{
+	margin-left: 20px;
+}
+.contact8 li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+}
+.contact8 li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact8 li p span{
+	float: right;
+}
+.contact9{
+	margin-top: 10px;
+}
+.contact9-left{
+	float: left;
+	margin-left:20px;
+}
+.contact9-right{
+	float: left;
+	width: 700px;
+
+}
+.contact9-right li{
+	width: 320px;
+	float: left;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+.contact9-right li img{
+	width: 320px;
+	height: 192px;
+}
+.contact9-right ._ul-li{
+	margin-right: 0;
+}
+.contact9-right li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact9 li p span{
+	float: right;
+}
+.contact10{
+	margin-left: 20px;
+}
+.contact10 li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+}
+.contact10 li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact10 li p span{
+	float: right;
+}
+.contact11{
+	margin-top: 10px;
+}
+.contact11-left{
+	float: left;
+	margin-left:20px;
+}
+.contact11-right{
+	float: left;
+	width: 700px;
+
+}
+.contact11-right li{
+	width: 320px;
+	float: left;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+.contact11-right li img{
+	width: 320px;
+	height: 192px;
+}
+.contact11-right ._ul-li{
+	margin-right: 0;
+}
+.contact11-right li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact11 li p span{
+	float: right;
+}
+.contact12{
+	margin-top: 10px;
+}
+.contact12-left{
+	float: left;
+	margin-left:20px;
+}
+.contact12-right{
+	float: left;
+	width: 700px;
+
+}
+.contact12-right li{
+	width: 320px;
+	float: left;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+.contact12-right li img{
+	width: 320px;
+	height: 192px;
+}
+.contact12-right ._ul-li{
+	margin-right: 0;
+}
+.contact12-right li p{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 320px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.contact12 li p span{
+	float: right;
+}
+
+.contact13-left .ul-li-1{
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 25px;
+}
+
+.contact13-left .ul-li-1 li {
+	
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-left: 1px solid #000;	
+	display: block;
+	float: left;
+}
+.contact13-left .ul-li-1 li a{
+	text-decoration: none;
+	color: #000000;
+}
+.contact13-left .ul-li-1 .last{
+	border-right: 1px solid #000;
+}
+.contact13-left .ul-li-1 .first{
+	border-bottom: 5px solid #000;
+}
+.contact13-left .ul-li-2{
+	margin-bottom: 20px;
+}
+.contact13-left .ul-li-2 li{
+	background: #f2f2f2;
+	width: 305px;
+	height: 90px;
+	border: 1px solid #ccc;
+	margin: 0 20px 20px 20px;
+	float: left;
+	color: red;
+	position: relative;
+}
+.contact13-left .ul-li-2 .li-top{
+	margin-top: 10px;
+}
+.contact13-left .ul-li-2  img{
+	float: left;
+	width: 150px;
+	height: 90px;
+}
+.contact13-left .ul-li-2 p{
+	display: block;
+	margin-top: 14px;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	width: 150px;
+	color: #000;
+}
+.contact13-left .ul-li-2 span{
+	display: inline-block;
+	margin-top: 18px;
+	margin-left: 10px;
+	font-size: 24px;
+	color: red;
+}
+.contact13-left .ul-li-2 .zhemo{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background: black;
+	opacity: 0.5;
+	position: absolute;
+}
+.contact13-left .ul-li-2 .dinyue{
+	position: absolute;
+	color: white;
+	background: #db2726;
+	left:50% ;
+	top: 50%;
+	margin-left: -60px;
+	margin-top:-15px;
+}
+.contact13-left .ul-li-2 .dinyue a{
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	
+	line-height: 30px;
+	text-align: center;
+}
+.contact13-left .ul-li-2 .dinyue .diya{
+	border-right: 1px solid white;
+}
+
+#footer-link-wrap{
+	background: #f2f2f2;
+	height: 90px;
+	margin-top: 60px;
+}
+#footer-link{
+	height: 90px;
+	background: #f2f2f2;
+	position: relative;
+}
+#footer-link ul{
+	position: absolute;
+	top: 30px;
+}
+#footer-link ul li{
+	position: relative;
+	float: left;
+	width: 165px;
+	height: 60px;
+	border-right: 1px solid #ccc;
+}
+#footer-link ul li span{
+	display: block;
+	width:165px;
+	height: 41px;
+}
+#footer-link ul li span img{
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#footer-link ul li p{
+	width: 165px;
+	height: 19px;
+	line-height: 19px;
+	text-align: center;
+}
+
+
+
+
+
+
+#footer-wrap{
+	width: 100%;
+	height: 160px;
+	background: #f2f2f2;
+}
+#footer{
+	height: 160px;
+	background: #f2f2f2;
+	position: relative;
+}
+#footer ul{
+	position:absolute;
+	top:22px;
+	left: 25%;
+}
+#footer li{
+	float: left;
+	padding: 0 15px;
+}
+#footer div{
+	position: absolute;
+	top:70px;
+	left:25%;
+}
+#footer div p{
+	float: left;
+}
+#footer div span{
+	margin-left: 40px;
+	float: left;
+}
+#footer .tubiao{
+	position: absolute;
+	top:110px;
+}
+#footer .tubiao img{
+	display: block;
+	float: left;
+}
+#footer .img-1{
+	margin-left: 130px;
+}
+#footer .img-2{
+	margin-left: 25px;
+}
+#erwei{
+	position: absolute;
+	width:75px;
+	right: 30px;
+	
+}
+#erwei img{
+	display: block;
+	width:75px;
+}
+#erwei p{
+	background: white;
+	text-align: center;
+}
+
